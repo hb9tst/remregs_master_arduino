@@ -1,0 +1,16 @@
+# Data types
+RegisterBankMaster KEYWORD1
+
+# Methods
+sync KEYWORD2
+get_reg_8 KEYWORD2
+get_reg_16 KEYWORD2
+get_reg_32 KEYWORD2
+get_reg_mb KEYWORD2
+set_reg_8 KEYWORD2
+set_reg_16 KEYWORD2
+set_reg_32 KEYWORD2
+set_reg_mb KEYWORD2
+
+# Constants (LITERAL1)
+MAX_MB_SIZE
