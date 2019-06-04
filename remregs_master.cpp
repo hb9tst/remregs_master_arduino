@@ -69,7 +69,7 @@ bool RegisterBankMaster::sync()
 {
   sync_state = SYNC_NONE;
   port.setTimeout(250);
-  desync();
+  desync(true);
   port.write(0xaa);
   timeout = false;
   uint8_t b(0), timer(0), count(0);
